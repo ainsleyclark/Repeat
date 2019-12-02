@@ -1,0 +1,30 @@
+{
+  "name": "repeat",
+  "version": "1.0.0",
+  "description": "A vanilla JS ACF styled repeater, with zero dependencies.",
+  "main": "webpack.mix.js",
+  "scripts": {
+    "dev": "node node_modules/cross-env/src/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "node node_modules/cross-env/src/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch-poll": "node node_modules/cross-env/src/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --watch-poll --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "node node_modules/cross-env/src/bin/cross-env.js NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "node node_modules/cross-env/src/bin/cross-env.js NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ainsleyclark/Repeat.git"
+  },
+  "keywords": [
+    "Repeat",
+    "Repeater",
+    "Vanilla",
+    "Javascript",
+    "JS"
+  ],
+  "author": "Ainsley Clark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ainsleyclark/Repeat/issues"
+  },
+  "homepage": "https://github.com/ainsleyclark/Repeat#readme"
+}
